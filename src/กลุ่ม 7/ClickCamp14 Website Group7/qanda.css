@@ -1,0 +1,98 @@
+body {
+    font-family: Open Sans;
+    background: rgb(249, 249, 142);
+    background: linear-gradient(0deg, rgba(249, 249, 142, 1) 0%, rgba(129, 205, 255, 1) 100%);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+#quiz {
+    text-indent: 10px;
+    display:none;
+}
+
+.button {
+    border:4px solid;
+    border-radius:5px;
+    width: 40px;
+    padding-left:5px;
+    padding-right: 5px;
+    position: relative;
+    float:right;
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
+    margin: 0 2px 0 2px;
+}
+
+.button.active {
+    background-color: #F8F8FF;
+    color: #525252;
+}
+
+button {
+    position: relative;
+    float:right;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    width:50%;
+    margin:auto;
+    padding: 0 25px 40px 10px;
+    background-color:rgba(129, 205, 255, 1);
+    border:4px solid #B0E0E6;
+    border-radius:5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px #888;
+    margin-top: 15%;
+    margin-bottom: 13%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#prev {
+    display:none;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
+
+#Link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3498db; /* สีพื้นหลัง */
+    border-radius: 20px; /* กำหนดรัศมีของมุมเพื่อทำให้โค้งมน */
+    transition: background-color 0.3s ease; /* เพื่อทำให้มีอนิเมชันเมื่อเมาส์ผ่าน */
+    margin-left: 750px;
+    margin-top: 20px;
+  }
+  
+  /* เมื่อเมาส์ผ่านข้างปุ่ม */
+  #Link:hover {
+    background-color: #2980b9; /* เปลี่ยนสีพื้นหลังเมื่อเมาส์ผ่าน */
+  }
+
+  

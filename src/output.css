@@ -544,6 +544,40 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -614,6 +648,14 @@ video {
   display: flex;
 }
 
+.table {
+  display: table;
+}
+
+.list-item {
+  display: list-item;
+}
+
 .hidden {
   display: none;
 }
@@ -636,6 +678,10 @@ video {
 
 .w-2 {
   width: 0.5rem;
+}
+
+.resize {
+  resize: both;
 }
 
 .flex-wrap {
@@ -901,6 +947,20 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .sm\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .sm\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -908,6 +968,11 @@ video {
 
   .sm\:text-\[2px\] {
     font-size: 2px;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 

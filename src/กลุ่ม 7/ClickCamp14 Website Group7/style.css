@@ -1,0 +1,33 @@
+
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.dirtgroup{
+    display: flex;
+}
+
+.mid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.navbar ul li a:hover{
+    color: rgb(0, 0, 0);
+    transition: .5s;
+}
+
+.abc{
+    color: white;
+}
+
+.abc:hover{
+    color: rgb(0, 0, 0);
+    transition: .5s;
+}

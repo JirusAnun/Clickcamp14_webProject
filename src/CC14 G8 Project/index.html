@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVUCE</title>
+    <link rel="stylesheet" href="./assets/index.css" />
+    <script defer src="./assets/app.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="bg">
+        <div class="blue"></div>
+        <div class="white"></div>
+    </div>
+
+    <section id="hero" class="hero">
+        <div class="text">
+            <h1>
+                ยินดีต้อนรับเข้าสู่ <span>ADVUCE</span>
+            </h1>
+            <h3>
+                นึกถึงไอที… นึกถึงแอดวุยซ์
+            </h3>
+
+            <a href="#shop" class="btn" style="width: 200px;">Go to Shop</a>
+        </div>
+    </section>
+    
+    <section id="shop">
+        <div class="text">
+            <h1>
+                Shop - สินค้า
+            </h1>
+            <h3>
+                คุณสามารถเลือกซื้อสินค้าของเราได้ที่นี่เลยย !
+            </h3>
+        </div>
+
+        <div class="list-item" id="list-item">
+        </div>
+    </section>
+
+    <div class="sidebar-main" id="sidebar">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div id="Togg">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <h1>รายการตะกร้า <span id="count_item"></span> ชิ้น</h1>
+
+        </div>
+        <div class="list_cart" id="list_cart">
+        </div>
+    </div>
+</body>
+</html>

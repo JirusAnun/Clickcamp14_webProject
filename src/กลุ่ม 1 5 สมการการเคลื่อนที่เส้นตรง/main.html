@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinematic Formulae</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="c">
+            <table id="formulas" border="1">
+                <div class="l">
+                    <tr>
+                        <td><b>Kinematic Formulae</b></td>
+                    </tr>
+                </div>
+                <tr>
+                    <td>1. v = u + at &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Not s </td>
+                <tr>
+                    <td>2. v<sup>2</sup> = u<sup>2</sup> + as &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Not t </td>
+                </tr>
+                <tr>
+                    <td>3. s = ut + <sup>1</sup>/<sub>2</sub>at<sup>2</sup> &nbsp;&nbsp;&nbsp; Not v </td>
+                </tr>
+                <tr>
+                    <td>4. s = vt - <sup>1</sup>/<sub>2</sub>at<sup>2</sup> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Not u </td>
+                </tr>
+                <tr>
+                    <td>5. s = <sup>(u+v)</sup>/<sub>2</sub> t &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Not a </td>
+                </tr>
+                <p id=" res"></p>
+            </table>
+        </div>
+        <div class="form">
+            <form>
+                <div class="formCon">
+                    <label> Final velocity (m/s)&nbsp:</label>
+                    <label>
+                        Initial velocity (m/s)&nbsp; :
+
+                    </label>
+                    <label>
+                        Acceleration (m/s<sup>2</sup>)&nbsp;&nbsp; :
+                    </label>
+                    <label for=""> Displacement (m)&nbsp;&nbsp;:
+                    </label>
+                    <label for=""> Time (s)&nbsp;&nbsp;:
+                    </label>
+                    <button id="btn" type="submit">calculate</button>
+                </div>
+                <div class="textIn">
+
+                    <input type="text" id="v" name="v">
+                    <input type="text" id="u" name="u">
+                    <input type="text" id="a" name="a">
+                    <input type="text" id="s" name="s">
+                    <input type="text" id="t" name="t">
+                </div>
+        </div>
+        <!-- <button id="btn" type="button">calculate</button> -->
+        </form>
+    </div>
+
+
+
+
+
+    <script src="script.js" type="module" defer></script>
+</body>
+
+</html>

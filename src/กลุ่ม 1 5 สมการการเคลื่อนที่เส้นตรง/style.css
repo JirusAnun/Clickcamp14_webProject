@@ -1,0 +1,154 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+
+* {
+    font-family: 'Dancing Script', cursive;
+    /* background-image: url('https://wallpapers.com/images/hd/pastel-colors-cute-background-0ccry6zjp6hh078l.jpg'); */
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://wallpapers.com/images/hd/pastel-colors-cute-background-0ccry6zjp6hh078l.jpg');
+    background-color: aliceblue;
+    background-repeat: no-repeat;
+}
+
+#c{
+    background: none;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(194, 41, 41);
+    border-color: rgb(123, 51, 51);
+    border-radius: 50px;
+    margin: 10px;
+}
+#formulas {
+    background: none;
+    /* background-color: red; */
+    margin: 0 auto;
+}
+.form{
+    /* background: none; */
+    /* background-color: red; */
+    text-align: left;
+}
+.formCon {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    border: solid 1px black;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: rgba(169, 166, 166, 0.66);
+    flex-direction: row;
+}
+
+#btn{
+    background: none;
+    font-size: 20px;
+    border-radius: 20%;
+    text-align: center;
+    background-color: rgb(21, 207, 232); /* สีพื้นหลังสำหรับเนื้อหา */
+    padding: 10px;
+    border: 5px solid #000;
+    border-style: groove;
+    transition: 2s;
+    width: 200px;
+}
+#btn:hover {
+    background: none;
+
+    background-color: rgba(232, 28, 21, 0.768); /* สีพื้นหลังสำหรับเนื้อหา */
+    
+}
+
+#as {
+    color: white;
+    font-size: 12px;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    left: 52.5%;
+    transform: translateY(40px);
+    transition: all ease 250ms;
+}
+
+#vs {
+    color: white;
+    font-size: 12px;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    left: 52.5%;
+    transform: translateY(2px);
+    transition: all ease 250ms;
+}
+
+#us {
+    color: white;
+    font-size: 12px;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    left: 52.5%;
+    transform: translateY(20px);
+    transition: all ease 250ms;
+}
+
+#ss {
+    color: white;
+    font-size: 12px;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    left: 52.5%;
+    transform: translateY(57px);
+    transition: all ease 250ms;
+}
+
+#ts {
+    color: white;
+    font-size: 12px;
+    user-select: none;
+    pointer-events: none;
+    position: absolute;
+    left: 52.5%;
+    transform: translateY(75px);
+    transition: all ease 250ms;
+}
+.textIn {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px black;
+}
+/* .input {
+    position: relative;
+    background-color: blue;
+}*/
+
+
+/*body {
+    background-color: aquamarine;
+}
+
+
+/* .className  */
+
+
+/* #idName */

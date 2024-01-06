@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;600;700&family=Inconsolata:wght@300;700&family=Lora:wght@400;700&family=Mukta:wght@300;500;700;800&family=PT+Serif:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+* {
+    font-family:'Quicksand', sans-serif; 
+}
+
+header {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 200%;
+    font-weight: 800;
+}
+
+p {
+    font-weight:700
+}
+
+a {
+    color:aliceblue
+}
+
+#WW {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    width: 100px;
+    height: 30px;
+    border-style: hidden;
+    border-radius: 10px;
+    background-color:rgb(144, 144, 144);
+}
+
+#p_ww {
+    font-size: 150%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#VV {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    width: 100px;
+    height: 30px;
+    border-style: hidden;
+    border-radius: 10px;
+    background-color:rgb(144, 144, 144);
+}
+
+#p_vv {
+    font-size: 150%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+#WV {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 700;
+    width: 200px;
+    height: 30px;
+    border-style: hidden;
+    border-radius: 10px;
+    background-color:rgb(144, 144, 144);
+}
+
+#p_wv {
+    font-size: 150%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+.boxW-W {
+    margin-top: 15%;
+    margin-left: 40%;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:300px;
+    border-style: hidden;
+    border-radius: 10px;
+    background-color: rgb(175, 175, 175);
+}
+
+.boxW-V {
+    margin-top: 15%;
+    margin-left: 40%;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:300px;
+    border-style: hidden;
+    border-radius: 10px;
+    background-color: rgb(175, 175, 175);
+}
+
+.boxV-V {
+    margin-top: 15%;
+    margin-left: 40%;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:300px;
+    border-style: hidden;
+    border-radius: 10px;
+    background-color: rgb(175, 175, 175);
+}

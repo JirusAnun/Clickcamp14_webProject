@@ -1,0 +1,212 @@
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
+a {
+    color: s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 57, 80);
+    font-size: larger;
+}
+
+li {
+    list-style: none;
+    font-size: large;
+    font-weight: 500;
+}
+
+.main-container {
+    background: rgb(249, 249, 142);
+    background: linear-gradient(0deg, rgba(249, 249, 142, 1) 0%, rgba(129, 205, 255, 1) 100%);
+
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/Sprite-0005_resize.png);
+    background-position: center;
+    background-repeat: repeat;
+    animation-duration: 4s;
+}
+
+.header-content {
+    width: 350px;
+    margin-top: 250px;
+    margin-right: 10%;
+    border-radius: 300px
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.content-image {
+    margin-top: 200px;
+    width: 50%;
+}
+
+*, *:before, *:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    }
+
+html {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #234465;
+    
+    }
+
+form {
+    background-color: rgb(173, 216, 230);
+    width: 38rem;
+    height: auto;
+    margin: 2em auto;
+    padding: 2em 3em;
+    border-radius: 0.5em;
+    justify-content: center;
+    }
+
+fieldset {
+    background-color: inherit;
+    border: none;
+    height: auto;
+    }
+
+legend {
+    font-family: Georgia, serif;
+    font-size: 2.2rem;
+    margin: 0 auto 1em auto;
+    }
+
+p {
+    display: flex;
+    margin: 1em auto
+    }
+
+#message-area {
+    align-items: flex-start;
+    }
+
+fieldset label, #gender {
+    width: 7em;
+    }
+
+#gender-selector label {
+    width: 4em;
+    }
+
+#gender-selector input{
+    margin-right: 0.4em;
+    }
+
+fieldset label[for="agree"] {
+    width: 18em;
+    
+    }
+
+#checkbox,
+#gender-selector {
+    justify-content: flex-start;
+    }
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea,
+select {
+    width: 18em;
+    margin-right: 6.95em;
+    padding: 0.4em 0.7em;
+    }
+
+textarea {
+    max-width: 18em;
+    }
+
+input[type="checkbox"] {
+    margin-right: 0.5em;
+    }
+
+input[type="submit"] {
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    background-color: #234465;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.4em;
+    padding: 1.2em 3.2em;
+    margin: 1em auto 0 auto;
+    }
+#townhome {
+    display: flex;
+    flex-direction: column;
+}
+#townhome input{
+    margin-left: 110px;
+}
+
+.butten{
+    border-style: double;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 85px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#Link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3498db; /* สีพื้นหลัง */
+    border-radius: 20px; /* กำหนดรัศมีของมุมเพื่อทำให้โค้งมน */
+    transition: background-color 0.3s ease; /* เพื่อทำให้มีอนิเมชันเมื่อเมาส์ผ่าน */
+    margin-left: 150px;
+  }
+  
+  /* เมื่อเมาส์ผ่านข้างปุ่ม */
+  #Link:hover {
+    background-color: #2980b9; /* เปลี่ยนสีพื้นหลังเมื่อเมาส์ผ่าน */
+  }
+
+  select {
+    border: 1px solid #ccc; /* กำหนดขอบหนา 1px และสีเทา */
+    border-radius: 20px; /* กำหนดมุมขอบโค้ง */
+    padding: 8px; /* กำหนดระยะห่างภายในขอบ */
+    width: 200px; /* กำหนดความกว้าง */
+}
+select:focus {
+    outline: 2px solid #66afe9; /* กำหนดสีขอบเมื่อได้รับ focus */
+}
+input{
+    border-radius: 10px; /* กำหนดมุมขอบโค้ง */
+    border-width: 1px;
+    margin-top: 2px;
+}
+.sssss{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    width: 240px; /* กำหนดความกว้าง */
+
+}
+
+
+
+
+
+
+  
